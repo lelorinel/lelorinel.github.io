@@ -6,7 +6,7 @@ Vue.component('tab-homepage', {
     },
     template: `
     <div class="inner">
-        <h5>Merhabalar, bu Vue.JS ile çalışan ana sayfa.</h5>
+        <p>Merhabalar, kişisel web sayfama hoşgeldiniz. Burada Onur "LeLoR" FİDAN'a ait bilgileri bulabilirsiniz. Keyifli vakit geçirmeniz dileği ile.</p>
     </div>
     `
 });
