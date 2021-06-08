@@ -1,17 +1,18 @@
 Vue.config.devtools = false;
 Vue.prototype.window = window;
 
-Vue.use(Vuetify)
 Vue.use(Vuesax)
 
 
 const app = new Vue({
-    el: '#app',
-    vuetify: new Vuetify(),
+    el: '.app',
     data() {
         return {
             selection: 0,           
             navOptions: ['Homepage'],
+            data:{
+                test: "Hello!",
+            }
         };
     },
     computed: {

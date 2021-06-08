@@ -5,6 +5,8 @@ Vue.component('tab-homepage', {
     computed: {
     },
     template: `
-    <h3>Ana Sayfadayız</h3>
+    <div class="inner">
+        <h5>Merhabalar, bu Vue.JS ile çalışan ana sayfa.</h5>
+    </div>
     `
 });
